@@ -1,0 +1,61 @@
+{
+  "redirects": [
+    { "source": "/home",                       "destination": "/",                                              "permanent": true },
+    { "source": "/index.html",                 "destination": "/",                                              "permanent": true },
+    { "source": "/shop",                       "destination": "/games",                                         "permanent": true },
+    { "source": "/store",                      "destination": "/games",                                         "permanent": true },
+    { "source": "/products",                   "destination": "/games",                                         "permanent": true },
+    { "source": "/catalogue",                  "destination": "/games",                                         "permanent": true },
+    { "source": "/catalog",                    "destination": "/games",                                         "permanent": true },
+    { "source": "/product/mr-lee",             "destination": "/games/mr-lees-alishan-tea-collector",           "permanent": true },
+    { "source": "/product/mr-lees-alishan",    "destination": "/games/mr-lees-alishan-tea-collector",           "permanent": true },
+    { "source": "/product/hungry-ghost",       "destination": "/games/hungry-ghost-night",                      "permanent": true },
+    { "source": "/product/dragon-boat",        "destination": "/games/dragon-boat-fest",                        "permanent": true },
+    { "source": "/product/peace-love-trippy",  "destination": "/games/peace-love-trippy-club",                  "permanent": true },
+    { "source": "/product/houyi",              "destination": "/games/houyi-shot-the-suns",                     "permanent": true },
+    { "source": "/product/desolate-love",      "destination": "/games/desolate-love",                           "permanent": true },
+    { "source": "/product/dudes-with-attitude","destination": "/games/dudes-with-attitude",                     "permanent": true },
+    { "source": "/product/never-say-die",      "destination": "/games/never-say-die",                           "permanent": true },
+    { "source": "/product/barback",            "destination": "/games/barback",                                 "permanent": true },
+    { "source": "/product/horror-taichung",    "destination": "/games/coming-soon/horror-taichung",             "permanent": true },
+    { "source": "/product/mazu",               "destination": "/games/coming-soon/mazu-guardian-of-the-tides",  "permanent": true },
+    { "source": "/news",                       "destination": "/blog",                                          "permanent": true },
+    { "source": "/updates",                    "destination": "/blog",                                          "permanent": true },
+    { "source": "/info",                       "destination": "/about",                                         "permanent": true },
+    { "source": "/about-us",                   "destination": "/about",                                         "permanent": true },
+    { "source": "/our-story",                  "destination": "/about",                                         "permanent": true },
+    { "source": "/support",                    "destination": "/faq",                                           "permanent": true },
+    { "source": "/help",                       "destination": "/faq",                                           "permanent": true },
+    { "source": "/faqs",                       "destination": "/faq",                                           "permanent": true },
+    { "source": "/publish",                    "destination": "/developers",                                     "permanent": true },
+    { "source": "/partner",                    "destination": "/developers",                                     "permanent": true },
+    { "source": "/contact-us",                 "destination": "/contact",                                       "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options",    "value": "nosniff" },
+        { "key": "X-Frame-Options",           "value": "SAMEORIGIN" },
+        { "key": "X-XSS-Protection",          "value": "1; mode=block" },
+        { "key": "Referrer-Policy",           "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy",        "value": "camera=(), microphone=(), geolocation=()" }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/(.*).webp",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }
+      ]
+    }
+  ]
+}

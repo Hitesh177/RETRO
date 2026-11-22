@@ -1,0 +1,31 @@
+# ITG-SOFT — robots.txt
+# https://itg-soft.tw
+
+User-agent: *
+Allow: /
+
+# Block private/transactional pages
+Disallow: /cart
+Disallow: /checkout
+Disallow: /account
+Disallow: /admin
+Disallow: /api/
+Disallow: /*.json$
+
+# Allow Google's crawlers full access to assets
+User-agent: Googlebot
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.webp$
+
+# Block bad bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Sitemap
+Sitemap: https://itg-soft.tw/sitemap.xml

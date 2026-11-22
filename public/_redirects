@@ -1,0 +1,56 @@
+# ITG-SOFT — 301 redirects (Netlify format)
+# Old itg-soft.tw GoDaddy/Wix URLs → new clean URL structure
+
+# Old GoDaddy builder pages
+/home                                   /                            301
+/index.html                             /                            301
+/shop                                   /games                       301
+/store                                  /games                       301
+/products                               /games                       301
+/catalogue                              /games                       301
+/catalog                                /games                       301
+
+# Old product page formats (GoDaddy/Wix style)
+/product/mr-lee                         /games/mr-lees-alishan-tea-collector    301
+/product/mr-lees-alishan                /games/mr-lees-alishan-tea-collector    301
+/product/hungry-ghost                   /games/hungry-ghost-night               301
+/product/dragon-boat                    /games/dragon-boat-fest                 301
+/product/peace-love-trippy              /games/peace-love-trippy-club           301
+/product/houyi                          /games/houyi-shot-the-suns              301
+/product/desolate-love                  /games/desolate-love                    301
+/product/dudes-with-attitude            /games/dudes-with-attitude              301
+/product/never-say-die                  /games/never-say-die                    301
+/product/vigor-maze                     /games/vigor-maze                       301
+/product/piss-the-fish                  /games/piss-the-fish                    301
+/product/barback                        /games/barback                          301
+/product/horror-taichung                /games/coming-soon/horror-taichung      301
+/product/mazu                           /games/coming-soon/mazu-guardian-of-the-tides  301
+
+# Old blog/news pages
+/news                                   /blog                        301
+/updates                                /blog                        301
+/blog/posts                             /blog                        301
+
+# Old about/info pages
+/info                                   /about                       301
+/about-us                               /about                       301
+/our-story                              /about                       301
+
+# Old support/FAQ pages
+/support                                /faq                         301
+/help                                   /faq                         301
+/faqs                                   /faq                         301
+/shipping                               /faq                         301
+/returns                                /faq                         301
+
+# Old developer pages
+/publish                                /developers                  301
+/publishers                             /developers                  301
+/partner                                /developers                  301
+
+# Old contact pages
+/contact-us                             /contact                     301
+/get-in-touch                           /contact                     301
+
+# SPA fallback (must be last)
+/*                                      /index.html                  200

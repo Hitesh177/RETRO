@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ── Favicon & App Icons ── -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
+    <meta name="msapplication-TileColor" content="#f09526" />
+
+    <!-- ── Base meta (overridden per-page by SeoHead via react-helmet-async) ── -->
+    <title>ITG-SOFT — Authentic Taiwanese NES &amp; Famicom Homebrew Games</title>
+    <meta name="description" content="Buy original NES and Famicom homebrew games from Taiwan. Complete-in-box physical cartridges celebrating Taiwanese culture, mythology, and festivals. Ships worldwide from Taichung." />
+    <meta name="keywords" content="buy NES homebrew games, famicom homebrew cartridge, taiwanese video game, physical NES game, ITG-SOFT, taiwan retro game, complete in box NES homebrew" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="theme-color" content="#f09526" />
+    <meta name="color-scheme" content="light" />
+    <meta name="author" content="ITG-SOFT" />
+    <meta name="copyright" content="ITG-SOFT 2026" />
+    <meta name="geo.region" content="TW-04" />
+    <meta name="geo.placename" content="Taichung City, Taiwan" />
+    <meta name="geo.position" content="24.1477;120.6736" />
+    <meta name="ICBM" content="24.1477, 120.6736" />
+
+    <!-- ── Open Graph fallbacks (overridden by SeoHead per-page) ── -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ITG-SOFT" />
+    <meta property="og:title" content="ITG-SOFT — Authentic Taiwanese NES &amp; Famicom Homebrew Games" />
+    <meta property="og:description" content="Buy original NES and Famicom homebrew games from Taiwan. Complete-in-box physical cartridges celebrating Taiwanese culture, mythology, and festivals. Ships worldwide from Taichung." />
+    <meta property="og:url" content="https://itg-soft.tw/" />
+    <meta property="og:image" content="https://itg-soft.tw/og-default.png" />
+    <meta property="og:image:secure_url" content="https://itg-soft.tw/og-default.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ITG-SOFT — Taiwanese NES &amp; Famicom homebrew game store" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="zh_TW" />
+
+    <!-- ── Twitter Card fallbacks ── -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@indietaiwangame" />
+    <meta name="twitter:creator" content="@indietaiwangame" />
+    <meta name="twitter:title" content="ITG-SOFT — Authentic Taiwanese NES &amp; Famicom Homebrew Games" />
+    <meta name="twitter:description" content="Buy original NES and Famicom homebrew games from Taiwan. Physical CIB cartridges celebrating Taiwanese culture. Ships worldwide." />
+    <meta name="twitter:image" content="https://itg-soft.tw/og-default.png" />
+
+    <!-- ── Canonical & hreflang fallback ── -->
+    <link rel="canonical" href="https://itg-soft.tw/" />
+    <link rel="alternate" hreflang="en" href="https://itg-soft.tw/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://itg-soft.tw/zh/" />
+    <link rel="alternate" hreflang="x-default" href="https://itg-soft.tw/" />
+
+    <!-- ── Preconnect to critical origins (reduces DNS + TLS roundtrip) ── -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+    <link rel="dns-prefetch" href="https://connect.facebook.net" />
+    <link rel="dns-prefetch" href="https://js.stripe.com" />
+
+    <!-- ── Google Fonts: display=swap so text renders before fonts arrive ── -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Pixelify+Sans:wght@400;500;600;700&family=Fraunces:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ── Critical CSS: prevents FOUC on above-the-fold content ── -->
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: 'Fraunces', Georgia, serif;
+        font-size: 17px;
+        background: #f8f7f4;
+        color: #1a1a1a;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      #root { min-height: 100vh; }
+      .page { background: #f8f7f4; }
+    </style>
+
+    <!-- ── Inline JSON-LD: Organization + WebSite
+         Injected here so crawlers see it before React hydrates.
+         SeoHead injects page-specific schemas after React loads.
+    ── -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://itg-soft.tw/#organization",
+      "name": "ITG-SOFT",
+      "alternateName": ["一台遊戲軟體公司", "Yī Tái Yóuxì Software Company"],
+      "url": "https://itg-soft.tw",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://itg-soft.tw/logo.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://itg-soft.tw/og-default.png",
+      "description": "Taiwanese NES & Famicom homebrew game publisher based in Taichung City, Taiwan since 2019. Original physical cartridges celebrating Taiwanese culture, mythology and festivals — shipped worldwide.",
+      "foundingDate": "2019",
+      "foundingLocation": { "@type": "Place", "name": "Taichung City, Taiwan" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "P.O. Box 36-69, Nantun District",
+        "addressLocality": "Taichung City",
+        "postalCode": "408736",
+        "addressCountry": "TW"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 24.1477,
+        "longitude": 120.6736
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "email": "support@itg-soft.tw",
+          "contactType": "customer support",
+          "availableLanguage": ["English", "Traditional Chinese"],
+          "areaServed": "Worldwide"
+        },
+        {
+          "@type": "ContactPoint",
+          "email": "press@itg-soft.tw",
+          "contactType": "press",
+          "availableLanguage": ["English"]
+        }
+      ],
+      "sameAs": [
+        "https://x.com/indietaiwangame",
+        "https://www.facebook.com/profile.php?id=100093602714284"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://itg-soft.tw/#website",
+      "name": "ITG-SOFT",
+      "url": "https://itg-soft.tw",
+      "description": "Buy authentic Taiwanese NES & Famicom homebrew games. Physical CIB cartridges, digital ROMs, and pre-orders. Ships worldwide from Taichung, Taiwan.",
+      "publisher": { "@id": "https://itg-soft.tw/#organization" },
+      "inLanguage": ["en", "zh-Hant"],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://itg-soft.tw/games?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- ── Google Analytics 4 — uncomment and replace ID when live ──
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer=window.dataLayer||[];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js',new Date());
+      gtag('config','G-XXXXXXXXXX');
+    </script>
+    ── -->
+
+    <!-- ── Facebook Pixel — uncomment and replace ID when live ──
+    <script>
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init','XXXXXXXXXXXXXXX');fbq('track','PageView');
+    </script>
+    ── -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

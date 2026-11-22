@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ITG-SOFT sitemap.xml
+  Last updated: 2026-05-15
+  Includes: core pages, product pages, blog posts, image sitemaps
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ── Core pages ── -->
+  <url>
+    <loc>https://itg-soft.tw/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://itg-soft.tw/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant"   href="https://itg-soft.tw/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://itg-soft.tw/"/>
+    <image:image>
+      <image:loc>https://itg-soft.tw/og-default.png</image:loc>
+      <image:title>ITG-SOFT — Taiwanese NES &amp; Famicom Homebrew Games</image:title>
+      <image:caption>Original NES and Famicom homebrew games from Taiwan. Ships worldwide.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/blog</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/about</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/developers</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/faq</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/contact</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/privacy</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/terms</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/shipping</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/cookies</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <!-- ── Product pages (in-stock / released) ── -->
+  <url>
+    <loc>https://itg-soft.tw/games/mr-lee-alishan-tea-collector</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://itg-soft.tw/og-default.png</image:loc>
+      <image:title>Mr Lee's Alishan Tea Collector — NES Homebrew Game</image:title>
+      <image:caption>Complete in Box NES cartridge. Collect tea on Alishan Mountain, Taiwan.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/hungry-ghost-night</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://itg-soft.tw/og-default.png</image:loc>
+      <image:title>Hungry Ghost Night — Taiwanese Ghost Festival NES Game</image:title>
+      <image:caption>2-player NES action game set during Taiwan's Ghost Month. Two artist editions.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/dragon-boat-fest</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://itg-soft.tw/og-default.png</image:loc>
+      <image:title>Dragon Boat Fest — NES Famicom Sports Game</image:title>
+      <image:caption>Celebrate Taiwan's Duanwu Festival. Sold out NES Famicom homebrew.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/peace-love-trippy-club</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://itg-soft.tw/og-default.png</image:loc>
+      <image:title>Peace, Love, Trippy Club — NES Puzzle Game</image:title>
+      <image:caption>50-stage surreal nightclub puzzle adventure. Original NES homebrew from Taiwan.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/houyi-shot-the-suns</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://itg-soft.tw/og-default.png</image:loc>
+      <image:title>HouYi Shot the Suns — Chinese Mythology NES Shooter</image:title>
+      <image:caption>Vertical shooter based on the Chinese legend of HouYi and the 10 suns.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/desolate-love</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/dudes-with-attitude</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/never-say-die</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/vigor-maze</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/piss-the-fish</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/poo-panties-the-cat</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/infiltration</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ── Partner / published games ── -->
+  <url>
+    <loc>https://itg-soft.tw/games/barback</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ── Pre-order / coming soon ── -->
+  <url>
+    <loc>https://itg-soft.tw/games/horror-taichung</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://itg-soft.tw/og-default.png</image:loc>
+      <image:title>Horror, Taichung! — Pre-Order NES Famicom Homebrew</image:title>
+      <image:caption>Survival horror set in Taichung's urban legends. Pre-order 2026.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/mazu-guardian-of-the-tides</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://itg-soft.tw/og-default.png</image:loc>
+      <image:title>Mazu: Guardian of the Tides — Pre-Order NES RPG</image:title>
+      <image:caption>Full NES RPG starring Taiwanese sea goddess Mazu. Pre-order 2026.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/shihu-shihu-where-are-you</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/chinese-new-year-adventure</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/games/minxiong-ghost-house</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- ── Blog posts ── -->
+  <url>
+    <loc>https://itg-soft.tw/blog/behind-the-scenes-horror-taichung</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <image:image>
+      <image:loc>https://itg-soft.tw/og-default.png</image:loc>
+      <image:title>Behind the Scenes: Horror, Taichung! — Dev Diary</image:title>
+      <image:caption>ITG-SOFT dev diary: making Horror, Taichung! for Famicom.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/blog/how-to-play-nes-games-original-hardware-2026</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/blog/infiltration-classic-space-shooter</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/blog/spotlight-mr-lee-alishan-tea-collector</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <image:image>
+      <image:loc>https://itg-soft.tw/og-default.png</image:loc>
+      <image:title>Product Spotlight: Mr Lee's Alishan Tea Collector</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/blog/taiwan-gaming-history-night-markets-to-homebrew</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://itg-soft.tw/blog/how-we-compose-chiptune-music-nes-2026</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+</urlset>
